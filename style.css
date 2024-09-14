@@ -1,0 +1,157 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+h1, h2, p {
+    margin-bottom: 15px;
+}
+
+/* Encabezado */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo img {
+    width: 150px;
+    height: auto;
+}
+
+.header .titulo h1 {
+    font-size: 2em;
+    color: #007bff;
+    text-transform: uppercase;
+}
+
+/* Menú de navegación */
+.menu {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Sección de Productos */
+.productos {
+    width: 40%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.productos img {
+    width: 231px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+/* Formulario */
+.formulario {
+    width: 55%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+fieldset {
+    border: 2px solid #007bff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 1.2em;
+    color: #007bff;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons input {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.buttons input:hover {
+    background-color: #0056b3;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
